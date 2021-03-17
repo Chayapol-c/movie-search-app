@@ -1,0 +1,53 @@
+.form{
+    display: grid;
+}
+
+.label{
+    font-size: 1.2rem;
+    margin: 0 0 .2rem 0;
+    text-transform: uppercase;
+}
+
+.input{
+    font-size: 1.6rem;
+    padding: 0.5rem 2rem;
+    line-height: 2.8rem;
+    border-radius: 9999px;
+    border: 1px solid #ddd;
+    margin: 0 0 1rem 0;
+    outline: none;
+}
+
+.button{
+    background-color: rgba(0, 0, 0, 0.75);
+    color: #ffffff;
+    padding: 1rem 2rem;
+    border: 1px solid rgba(0, 0, 0, 0.75);
+    border-radius: 9999px;
+    font-size: 1.4rem;
+    cursor: pointer;
+    transition: background-color 250ms;
+    outline: none;
+}
+
+.button:hover{
+    background-color: rgba(0, 0, 0, 0.85);
+}
+
+
+@media (min-width:786px){
+    .form{
+        grid-template-columns: auto 1fr auto;
+        grid-gap: 1rem;
+        align-items: center;
+    }
+
+    .input{
+        margin: 0;
+    }
+}
+
+
+.card-list{
+    margin: 4rem 0 0 0;
+}
